@@ -14,6 +14,7 @@ class Counter extends Component {
         
     render() { 
         return (
+            <h1 style={{textAlign:"center"}}>create by Amirhosein
             <div style={{position:"relative",textAlign:"center",left:-10,top:300}}>
             <span className={this.getBadgeClasses()}>{this.formatCount()}</span>
             <button
@@ -26,7 +27,9 @@ class Counter extends Component {
                 className='btn btn-danger btn-lg m-2'>
                  -
                  </button> 
+                 
             </div>
+            </h1>
         );
     }
     getBadgeClasses() {
